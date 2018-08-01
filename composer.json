@@ -1,5 +1,5 @@
 {
-    "name": "rezzza/command-bus",
+    "name": "inextensodigital/command-bus",
     "type": "library",
     "description": "Easy command bus",
     "keywords": ["command", "bus"],
