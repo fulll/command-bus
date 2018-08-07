@@ -2,10 +2,10 @@
 
 namespace Rezzza\CommandBus\Domain;
 
-use Rezzza\CommandBus\Domain\EventDispatcherBus;
 use Symfony\Component\DependencyInjection\ContainerInterface;
+use Symfony\Component\EventDispatcher\EventDispatcher;
 
-class ContainerAwareEventDispatcherBus extends EventDispatcherBus
+class ContainerAwareEventDispatcherBus extends EventDispatcher
 {
     /**
      * @var ContainerInterface
