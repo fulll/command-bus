@@ -1,5 +1,5 @@
 {
-    "name": "inextensodigital/command-bus",
+    "name": "fulll/command-bus",
     "type": "library",
     "description": "Easy command bus",
     "keywords": ["command", "bus"],
