@@ -4,7 +4,7 @@ namespace Rezzza\CommandBus\Domain;
 
 use Rezzza\CommandBus\Domain\Consumer\Response;
 use Rezzza\CommandBus\Domain\Event;
-use Symfony\Component\EventDispatcher\EventDispatcherInterface;
+use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
 
 class EventDispatcherBus implements CommandBusInterface
 {

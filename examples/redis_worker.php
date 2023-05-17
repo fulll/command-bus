@@ -13,7 +13,7 @@ $commandToConsume = $argv[1];
 use Rezzza\CommandBus;
 
 $logger          = new Logger();
-$eventDispatcher = new Symfony\Component\EventDispatcher\EventDispatcher();
+$eventDispatcher = new Symfony\Contracts\EventDispatcher\EventDispatcher();
 
 // redis bus
 $redis = new \Redis();

@@ -3,7 +3,7 @@
 namespace Rezzza\CommandBus\Domain\Event;
 
 use Rezzza\CommandBus\Domain\Consumer\Response;
-use Symfony\Component\EventDispatcher\Event;
+use Symfony\Contracts\EventDispatcher\Event;
 
 /**
  * OnDirectResponseEvent

@@ -7,7 +7,7 @@ use Rezzza\CommandBus\Domain\CommandBusInterface;
 use Rezzza\CommandBus\Domain\Handler\CommandHandlerLocatorInterface;
 use Rezzza\CommandBus\Domain\Handler\HandlerDefinition;
 use Rezzza\CommandBus\Domain\Handler\HandlerMethodResolverInterface;
-use Symfony\Component\EventDispatcher\EventDispatcherInterface;
+use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
 
 class DirectBus implements CommandBusInterface
 {

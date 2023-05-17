@@ -6,7 +6,7 @@ use Rezzza\CommandBus\Domain\Consumer\FailStrategy\FailStrategyInterface;
 use Rezzza\CommandBus\Domain\CommandBusInterface;
 use Rezzza\CommandBus\Domain\Event;
 use Rezzza\CommandBus\Domain\Exception\CommandHandlerFailedException;
-use Symfony\Component\EventDispatcher\EventDispatcherInterface;
+use Symfony\Contracts\EventDispatcher\EventDispatcherInterface;
 
 class Consumer
 {
