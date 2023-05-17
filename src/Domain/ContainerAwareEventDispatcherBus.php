@@ -3,7 +3,7 @@
 namespace Rezzza\CommandBus\Domain;
 
 use Symfony\Component\DependencyInjection\ContainerInterface;
-use Symfony\Contracts\EventDispatcher\EventDispatcher;
+use Symfony\Component\EventDispatcher\EventDispatcher;
 
 class ContainerAwareEventDispatcherBus extends EventDispatcher
 {
