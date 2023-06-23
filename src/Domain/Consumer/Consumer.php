@@ -58,8 +58,8 @@ class Consumer
             }
 
             $this->eventDispatcher->dispatch(
-                Event\Events::ON_CONSUMER_RESPONSE,
-                new Event\OnConsumerResponseEvent($this->commandBus->getHandleType(), $response)
+                new Event\OnConsumerResponseEvent($this->commandBus->getHandleType(), $response),
+                Event\Events::ON_CONSUMER_RESPONSE
             );
 
             return $response;
