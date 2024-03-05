@@ -7,6 +7,10 @@ use Rezzza\CommandBus\Domain\CommandInterface;
 class FailedCommand implements CommandInterface
 {
     protected $tryCount;
+    /**
+     * @var CommandInterface
+     */
+    private $command;
 
     public function __construct(CommandInterface $command, $tryCount = 1)
     {
