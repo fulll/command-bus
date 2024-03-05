@@ -12,11 +12,14 @@ class LoggerBus implements CommandBusInterface
 
     private $delegateCommandBus;
 
-    private $commandSerializer;
-
     private $handleLogLevel;
 
     private $errorLogLevel;
+
+    /**
+     * @var NormalizerInterface
+     */
+    private $normalizer;
 
     public function __construct(
         LoggerInterface $logger,
